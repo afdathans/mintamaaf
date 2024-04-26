@@ -21,12 +21,16 @@
     <!-- audio -->
     <audio src="Bukti.mp3" autoplay></audio>
     <!-- gambar -->
-    <img src="https://bit.ly/3AC63BR" alt="hati" height="200">
+    <img src="bergerak.gif" alt="hati" height="200" style="padding-left: 60px;">
 
-    <h1>HAII AKU MAU MINTA MAAF</h1>
+    <h1 style="padding-left: 40px;">HAI AKU MAU MINTA MAAF</h1>
     <!-- button -->
-    <div id="By" style="position: absolute; left: 64px; top: 370px; width: 210px; height: 210px;">
-        <input type="button" value="TEKAN INI BEB" onclick="ShowAlert()">
+    <div id="By" style="position: absolute; left: 140px">
+
+        <button type="button" onclick="ShowAlert() "
+            style="background-color: pink; border: none; width: 100px; height: 50px;">Klik
+            Inii</button>
+
     </div>
     <!-- link -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -65,15 +69,23 @@
                                                                 .then((text1) => {
                                                                     if (text1) {
                                                                         Swal.fire({
-                                                                            text: "maafin ya beb",
+                                                                            text: "dan maaf kalo udah buat kamu bad mood:)",
                                                                             buttons: true,
                                                                         })
                                                                             .then((text1) => {
                                                                                 if (text1) {
                                                                                     Swal.fire({
-                                                                                        text: "LOVE YOU hehe",
+                                                                                        text: "Kamuu jangan dry teks yaa cantik, ",
                                                                                         buttons: true,
                                                                                     })
+                                                                                        .then((text1) => {
+                                                                                            if (text1) {
+                                                                                                Swal.fire({
+                                                                                                    text: "LOVE YOU Hehehe",
+                                                                                                    buttons: true,
+                                                                                                })
+                                                                                            }
+                                                                                        })
                                                                                 }
                                                                             })
                                                                     }
