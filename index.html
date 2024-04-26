@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNTUK MY LOVE</title>
+</head>
+<style>
+    body {
+        padding: 25px;
+        background-color: pink;
+    }
+
+    .title {
+        color: pink;
+    }
+</style>
+
+<body>
+    <!-- audio -->
+    <audio src="Bukti.mp3" autoplay></audio>
+    <!-- gambar -->
+    <img src="https://bit.ly/3AC63BR" alt="hati" height="200">
+
+    <h1>HAII AKU MAU MINTA MAAF</h1>
+    <!-- button -->
+    <div id="By" style="position: absolute; left: 64px; top: 370px; width: 210px; height: 210px;">
+        <input type="button" value="TEKAN INI BEB" onclick="ShowAlert()">
+    </div>
+    <!-- link -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- scrip alert -->
+    <script>
+        function ShowAlert() {
+            Swal.fire({
+                title: "Halo Fanny",
+                text: "Aku mau Minta maaf",
+                buttons: true,
+            })
+                .then((result) => {
+                    if (result) {
+                        Swal.fire({
+                            text: "Jangan marah lagii yaa",
+                            buttons: true,
+                        })
+                            .then((text1) => {
+                                if (text1) {
+                                    Swal.fire({
+                                        text: "Aku mau minta maaf kalo aku ada salah",
+                                        buttons: true,
+                                    })
+                                        .then((text1) => {
+                                            if (text1) {
+                                                Swal.fire({
+                                                    text: "maafin yah",
+                                                    buttons: true,
+                                                })
+                                                    .then((text1) => {
+                                                        if (text1) {
+                                                            Swal.fire({
+                                                                text: "aku bingung mau gimana kalo kmu marah",
+                                                                buttons: true,
+                                                            })
+                                                                .then((text1) => {
+                                                                    if (text1) {
+                                                                        Swal.fire({
+                                                                            text: "maafin ya beb",
+                                                                            buttons: true,
+                                                                        })
+                                                                            .then((text1) => {
+                                                                                if (text1) {
+                                                                                    Swal.fire({
+                                                                                        text: "LOVE YOU hehe",
+                                                                                        buttons: true,
+                                                                                    })
+                                                                                }
+                                                                            })
+                                                                    }
+                                                                })
+                                                        }
+                                                    })
+                                            }
+
+                                        })
+                                }
+                            })
+                    }
+
+                })
+        }
+    </script>
+</body>
+
+</html>
